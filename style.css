@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.calcApp {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: rgb(68, 66, 66);
+    height: 20vh;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h2 {
+    color: #fff;
+}
+
+.inputArea {
+    font-size: 40px;
+}
+
+#myTextbox {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#myTextbox:focus {
+    outline: 0;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+#plus {
+   color: rgb(36, 145, 36);
+    /* padding: 10px; */
+    font-size: 20px;
+}
+
+#minus {
+color: rgb(202, 30, 30);
+/* padding: 20px; */
+font-size: 20px;
+}
+
+#reset {
+    color: rgb(31, 31, 165);
+    font-size: 20px;
+}
